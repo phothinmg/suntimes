@@ -1,0 +1,28 @@
+{
+  "name": "@phothin/suntimes",
+  "version": "0.1.0",
+  "description": "Calculates the sunrise, sunset, and daytime duration for a given latitude, longitude, and timezone",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsup",
+    "test": "jest --coverage"
+  },
+  "keywords": [
+    "sunset",
+    "sunrise"
+  ],
+  "author": "Pho Thin Maung",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.12.13",
+    "jest": "^29.7.0",
+    "jsr": "^0.12.4",
+    "ts-jest": "^29.1.4",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.0.2",
+    "typedoc": "^0.25.13",
+    "typescript": "^5.4.5"
+  }
+}
